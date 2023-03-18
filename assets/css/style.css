@@ -1,7 +1,7 @@
 * {
     font-family: monospace;
-    background-color:rgb(247, 215, 250);
-    color:rgb(106, 56, 137);
+    background-color:rgb(70, 101, 148);
+    color:rgb(147, 225, 247);
 }
 
 body {
@@ -15,15 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 30px;
-    background-color:rgb(247, 215, 250);
-    color:rgb(106, 56, 137);
-    font-family: monospace;
+    align-items:baseline;
     font-size: 16px;
 }
 
 nav ul li {
-    display: inline;
+    display: flex;
+    flex-direction:row
 }
 
 .fancy {
@@ -33,7 +31,7 @@ nav ul li {
     text-align: center;
     padding: 2em;
     margin: 1em;
-    border: .2em solid rgb(106, 56, 137);
+    border: .2em solid rgb(14, 43, 86);
     width: 4em;
     height: 0em;
     border-radius: 25px;
@@ -42,8 +40,8 @@ nav ul li {
 }
 
 .fancy:hover {
-    border: .3em solid rgb(106, 56, 137);
-    box-shadow: 4px 4px 5px rgb(70, 22, 99);
+    border: .3em solid rgb(14, 43, 86);
+    box-shadow: 4px 4px 5px rgb(13, 48, 100);
 }
 
 .about-me{
@@ -52,8 +50,9 @@ nav ul li {
 }
 
 .about-me img {
+    object-fit: block;
     width: 200px;
-    height: auto;
+    height: 200px;
 }
 
 .work1 img {
@@ -65,3 +64,4 @@ nav ul li {
     height: 200px;
     width: auto;
 }
+
