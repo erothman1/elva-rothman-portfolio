@@ -1,0 +1,67 @@
+* {
+    font-family: monospace;
+    background-color:rgb(247, 215, 250);
+    color:rgb(106, 56, 137);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color:rgb(247, 215, 250);
+    color:rgb(106, 56, 137);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.fancy {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    border: .2em solid rgb(106, 56, 137);
+    width: 4em;
+    height: 0em;
+    border-radius: 25px;
+    font-size: 10px;
+    list-style-type:none;
+}
+
+.fancy:hover {
+    border: .3em solid rgb(106, 56, 137);
+    box-shadow: 4px 4px 5px rgb(70, 22, 99);
+}
+
+.about-me{
+    display: flex;
+    justify-content:space-around;
+}
+
+.about-me img {
+    width: 200px;
+    height: auto;
+}
+
+.work1 img {
+    height: 200px;
+    width: auto;
+}
+
+.work img{
+    height: 200px;
+    width: auto;
+}
