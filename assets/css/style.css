@@ -19,9 +19,9 @@ body {
     font-size: 16px;
 }
 
+/* this isn't working; trying to make list go horizontal */
 nav ul li {
-    display: flex;
-    flex-direction:row
+    display: inline-block;
 }
 
 .fancy {
@@ -47,21 +47,43 @@ nav ul li {
 .about-me{
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .about-me img {
     object-fit: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: auto;
 }
 
-.work1 img {
-    height: 200px;
-    width: auto;
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 25px;
 }
 
 .work img{
-    height: 200px;
-    width: auto;
+    background-color: rgb(147, 225, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    margin-bottom: 25px;
+}
+
+.work header {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.work-big img {
+    height: 400px;
+    width: 800px;
+    border:.25em solid rgb(147, 225, 247);
+}
+
+.work-small img{
+    height: 250px;
+    width: 400px;
+    border: .25em solid rgb(147, 225, 247);
 }
 
