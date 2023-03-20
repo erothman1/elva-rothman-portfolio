@@ -52,6 +52,16 @@ body {
     background-size:cover;
 }
 
+.banner img {
+    height: 175px;
+    width: auto;
+    float: left;
+    border-radius: 14px;
+    border: .2em solid rgb(147, 225, 247);
+    margin-left: 28px;
+    margin-top: 9.5px;
+}
+
 .information {
     margin-left: 200px;
     margin-right: 50px;
@@ -70,6 +80,7 @@ body {
 
 .about-me p {
     align-self: center;
+    margin-left: 50px;
 }
 
 .work {
@@ -88,6 +99,10 @@ body {
     background-color: rgb(147, 225, 247);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
     margin-bottom: 25px;
+}
+
+.work:hover img {
+    box-shadow: 5px 5px 4px 5px rgb(56, 80, 116);
 }
 
 .work header {
@@ -147,7 +162,7 @@ footer {
 }
 
 /* @media screen and (min-width: 480px) {
-    .main-header {
+    .main-header ul {
         flex-direction: column;
     }
 } */
