@@ -8,10 +8,13 @@ Thoughout working on this project, I learned how to write HTML and CSS code from
 
 ## Usage
 
-[This is the link to the completed application](www.fjeijf.com)
+[This is the link to the completed application](https://erothman1.github.io/elva-rothman-portfolio/)
 
-This is a screenshot to the completed application:
-![Portfolio](./assets/images/placeholder.img)
+This is a screenshot to the completed application(computer view):
+![Portfolio](./assets/images/computer-screen-screenshot.png)
+
+This is a screenshot to the completed application(phone view):
+![Portfolio](./assets/images/phone-view-screenshot.png)
 
 ## Credits
 
