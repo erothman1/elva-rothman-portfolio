@@ -72,10 +72,9 @@ body {
     flex-direction:row;
 }
 
-.about-me img {
-    object-fit: block;
-    width: 150px;
-    height: auto;
+.about-me h2 {
+    margin-right: -20%;
+    border-right: 5px solid rgb(147, 225, 247);
 }
 
 .about-me p {
@@ -91,9 +90,9 @@ body {
     margin-left: 25px;
 }
 
-.work h2 {
-    margin-right: 20px
-}
+/* .work h2 {
+    margin-right: 37.5%;
+} */
 
 .work img{
     background-color: rgb(147, 225, 247);
@@ -151,10 +150,23 @@ body {
     border: .25em solid rgb(147, 225, 247);
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+}
 .contact ul li {
     list-style-type: none;
     display:inline-block;
     margin-right: 140px;
+}
+
+.resume {
+    display: flex; 
+    align-items: center;
+}
+
+.resume p {
+    margin-left: 100px
 }
 
 footer {
